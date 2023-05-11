@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 320px;
+  border-radius: 30px;
+  background: var(--cardBackground);
+  box-shadow: 15px 15px 30px var(--cardBoxShadow1),
+    -15px -15px 30px var(--cardBoxShadow2);
+  transition: all 0.5s;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 210px;
+  border-radius: 30px 30px 10px 10px;
+}
+
+.imgDiv > img {
+  width: 230px;
+  height: 210px;
+  margin-top: 10px;
+  border-radius: 30px 30px 10px 10px;
+  object-fit: cover;
+  opacity: 90%;
+}
+
+.imgDiv > img:hover {
+  border: 6px solid var(--pastel);
+  border-radius: 30px 30px 10px 10px;
+  opacity: 50%;
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  transition: all 0.1s;
+}
+
+.infoFlex {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infoFlex > h3 {
+  font-size: 18px;
+  font-weight: 500;
+  justify-self: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.infoFlex > h4 {
+  font-size: 14px;
+  font-weight: 500;
+  justify-self: center;
+  margin: 0;
+  text-align: center;
+}
+
+.priceFlex {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.priceFlex > h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}

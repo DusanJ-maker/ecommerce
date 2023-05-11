@@ -1,0 +1,25 @@
+.centralDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.containerGrid {
+  display: grid;
+  width: 85%;
+  grid-template-columns: auto auto auto auto;
+  /* padding: 10px; */
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+  column-gap: 75px;
+}
+
+.gridItem {
+  display: grid;
+  font-size: 30px;
+  align-self: center;
+  justify-content: center;
+}

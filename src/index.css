@@ -1,13 +1,49 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+body > #root > div {
+  height: 100%;
+  width: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --background: #e3e3e3;
+  --background-secondary: #e0e0e0;
+  --text-primary: #444c5c;
+  --text-secondary: grey;
+  --red: #ce5a57;
+  --pastel: #78a5a3;
+  --ocher: #e1b16a;
+  --fontMedBold: 600;
+
+  /* CARD */
+  --cardBackground: #e0e0e0;
+  --cardBoxShadow1: #bebebe;
+  --cardBoxShadow2: #ffffff;
+}
+
+[data-theme="dark"] {
+  --background: #444c5c;
+  --background-secondary: #2d3544;
+  --text-primary: #dcdcdc;
+  --text-secondary: grey;
+  --red: #ce5a57;
+  --pastel: #78a5a3;
+  --ocher: #e1b16a;
+
+  /* CARD */
+  --cardBackground: #3d4451;
+  --cardBoxShadow1: #2d3544;
+  --cardBoxShadow2: #444c5c;
 }

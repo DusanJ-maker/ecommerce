@@ -1,0 +1,65 @@
+export const products = [
+    {
+        id: 1,
+        productName: "Nice T-Shirt cool",
+        category: "T-shirt",
+        price: 15.99,
+        img: 'https://plus.unsplash.com/premium_photo-1671656349262-1e1d3e09735c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+    },
+    {
+        id: 2,
+        productName: "Classic denim jeans",
+        category: "Jeans",
+        price: 49.99,
+        img: 'https://images.unsplash.com/photo-1589226849736-8d0e0c78e869?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80',
+    },
+    {
+        id: 3,
+        productName: "Sport sneakers",
+        category: "Sneakers",
+        price: 79.99,
+        img: 'https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
+    },
+    {
+        id: 4,
+        productName: "Elegant wristwatch",
+        category: "Watch",
+        price: 129.99,
+        img: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80',
+    },
+    {
+        id: 5,
+        productName: "Trendy handbag",
+        category: "Handbag",
+        price: 89.99,
+        img: 'https://images.unsplash.com/photo-1566150902887-9679ecc155ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    },
+    {
+        id: 6,
+        productName: "WiFi headphones",
+        category: "Headphones",
+        price: 159.99,
+        img: 'https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1164&q=80',
+    },
+    {
+        id: 7,
+        productName: "Nice cool sunglasses",
+        category: "Sunglasses",
+        price: 59.99,
+        img: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
+    },
+    {
+        id: 8,
+        productName: "Durable backpack",
+        category: "Backpack",
+        price: 39.99,
+        img: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80',
+    },
+    {
+        id: 9,
+        productName: "Samsung A53",
+        category: "Smartphone",
+        price: 799.99,
+        img: 'https://images.unsplash.com/photo-1618493624693-b9e51e72a719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1207&q=80',
+    }
+];
