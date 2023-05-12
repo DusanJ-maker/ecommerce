@@ -20,6 +20,7 @@ function CardProduct() {
                             <img src={product.img}
                                 alt='productImg'>
                             </img>
+                            <h3>Details</h3>
                         </div>
                         <div className={styles.infoFlex}>
                             <h3>{product.productName}</h3>
